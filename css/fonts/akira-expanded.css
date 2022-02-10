@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Akira Expanded';
+    src: url('Akira Expanded.otf');
+    src: local('Akira Expanded'), local('Akira Expanded'),
+        url('Akira Expanded.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'StretchPro';
+    src: url('StretchPro.ttf');
+    src: local('StretchPro'), local('StretchPro'),
+        url('StretchPro.ttf') format('opentype');
+    font-style: normal;
+}

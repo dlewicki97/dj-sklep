@@ -1,0 +1,158 @@
+.column {
+  float: left;
+  width: 25%;
+}
+.custom-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: block;
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 4px 16px;
+  margin-top: -50px;
+  color: var(--first-color) !important;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: var(--first-color);
+  color: white !important;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 1rem;
+  padding: 8px 12px;
+  position: absolute;
+  font-weight: 700;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.shortcut-photos img {
+  width: 10%;
+}
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shortcut-photos.owl-carousel {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.carousel-arrow {
+  top: 50% !important;
+  transform: translateY(-50%);
+  outline: unset;
+  border: unset;
+  background-color: #fff;
+  margin-top: unset;
+  z-index: 30;
+  position: absolute;
+}
+.carousel-arrow.prev {
+  left: 0;
+}
+.carousel-arrow.next {
+  right: 0;
+}
+.carousel-arrow:hover {
+  background-color: var(--first-color);
+}
+.carousel-arrow:hover span {
+  color: white !important;
+}
+.carousel-arrow span {
+  color: var(--first-color) !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid var(--first-color);
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dj Sklep - Produkt</title>
+    <link rel="icon" href="./img/logo.svg" type="image/svg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/single_product.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="css/fonts/akira-expanded.css" />
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" async
+        href="dist/assets/owl.carousel.min.css">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" async
+        href="dist/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="bg-picture lazy margin-left" data-bg="img/margin-left.jpg">
+        <div class="mask"></div>
+    </div>
+    <div class="middle-section">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light lazy p-4" data-bg="./img/nav-bg.png">
+                <a class="navbar-brand" href="#">
+                    <img class="header-logo" src="./img/logo.svg" alt="logo" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">O sklepie </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promocje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nowości</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontakt</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex mr-5 mb-2 mb-lg-0">
+                        <img class="img-fluid pr-2" src="./img/phone.svg" alt="" />
+                        <div class="d-flex flex-column">
+                            <a class="header-phone-link" href="tel:+48 602 720 950">+48 602 720 950</a>
+                            <a class="header-phone-link" href="tel:+48 71 795 0636">+48 71 795 0636</a>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="dropdown mr-2">
+                            <button class="header-dropdown header-button cart" id="cart1">
+                                <img class="img-fluid" src="./img/cart.svg" alt="Koszyk" />
+                                <span>Koszyk</span>
+                                <div class="header-button-notification">2</div>
+                            </button>
+                            <div class="dropdown-menu dropdown-primary cart-drop" aria-labelledby="cart1">
+                                <div class="d-flex flex-wrap justify-content-between w-100 mb-3">
+                                    <div id="" class="cart-drop-name-container">
+                                        <img class="cart-drop-img lazy" data-src="./img/cart-drop-1.png"
+                                            alt="zdjecie" />
+                                        <span class="cart-drop-product-name">Focusrite Scarlett 2i2 Studio 3Gen</span>
+                                    </div>
+                                    <div id="counter1" class="cart-drop-counter-container">
+                                        <div class="cart-drop-product-counter">
+                                            <input type="hidden" name="amount[]" />
+                                            <span class="cart-drop-amount">1</span>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img class="cart-drop-arrow-up" src="./img/cart-drop-arrow-up.svg"
+                                                    alt="Dodaj" />
+                                                <img class="cart-drop-arrow-down" src="./img/cart-drop-arrow-down.svg"
+                                                    alt="Odejmij" />
+                                            </div>
+                                            <div class="cart-drop-counter-menu" style="display: none">
+                                                <span class="cart-drop-menu-option">1</span>
+                                                <span class="cart-drop-menu-option">2</span>
+                                                <span class="cart-drop-menu-option">3</span>
+                                                <span class="cart-drop-menu-option">4</span>
+                                                <span class="cart-drop-menu-option">5</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span class="cart-drop-price">1189 zł</span>
+                                            <img class="cart-drop-trash" src="./img/cart-drop-trash.svg" alt="Usuń" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-wrap justify-content-between w-100 mb-3">
+                                    <div id="" class="cart-drop-name-container">
+                                        <img class="cart-drop-img lazy" data-src="./img/cart-drop-2.png"
+                                            alt="zdjecie" />
+                                        <span class="cart-drop-product-name">Native Instruments KOMPLETE 12</span>
+                                    </div>
+                                    <div id="counter2" class="cart-drop-counter-container">
+                                        <div class="cart-drop-product-counter">
+                                            <input type="hidden" name="amount[]" />
+                                            <span class="cart-drop-amount">1</span>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img class="cart-drop-arrow-up" src="./img/cart-drop-arrow-up.svg"
+                                                    alt="Dodaj" />
+                                                <img class="cart-drop-arrow-down" src="./img/cart-drop-arrow-down.svg"
+                                                    alt="Odejmij" />
+                                            </div>
+                                            <div class="cart-drop-counter-menu" style="display: none">
+                                                <span class="cart-drop-menu-option">1</span>
+                                                <span class="cart-drop-menu-option">2</span>
+                                                <span class="cart-drop-menu-option">3</span>
+                                                <span class="cart-drop-menu-option">4</span>
+                                                <span class="cart-drop-menu-option">5</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span class="cart-drop-price">2645 zł</span>
+                                            <img class="cart-drop-trash" src="./img/cart-drop-trash.svg" alt="Usuń" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-between w-100 mt-3 flex-wrap">
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <div style="margin-bottom: 0.8rem">
+                                            <button class="primary-button invert"
+                                                onclick="document.getElementsByClassName('cart')[0].classList.remove('active')">
+                                                ZAMKNIJ
+                                            </button>
+                                        </div>
+                                        <button class="secondary-button">PRZEJDŹ DO KOSZYKA</button>
+                                    </div>
+                                    <div class="cart-drop-sum-container">
+                                        <p class="cart-drop-sum-title mb-0">Suma:</p>
+                                        <p class="cart-drop-sum-price mb-0">3836 zł</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="header-dropdown header-button mr-2">
+                            <img class="img-fluid" src="./img/heart.svg" alt="Ulubione" />
+                            <span>Ulubione</span>
+                        </button>
+                        <button class="header-dropdown header-button">
+                            <img class="img-fluid" src="./img/account.svg" alt="Konto" />
+                            <span>Konto</span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="fixed-buttons-container" style="display: none">
+                <div class="dropdown">
+                    <button class="header-dropdown header-button cart mb-2" id="cart3">
+                        <img class="img-fluid" src="./img/cart.svg" alt="Koszyk" />
+                        <span>Koszyk</span>
+                        <div class="header-button-notification">2</div>
+                    </button>
+                    <div class="dropdown-menu dropdown-primary cart-drop" aria-labelledby="cart3">
+                        <div class="d-flex w-100 justify-content-between flex-wrap mb-3">
+                            <div class="cart-drop-name-container">
+                                <img class="cart-drop-img lazy loaded" data-src="./img/cart-drop-1.png" alt="zdjecie"
+                                    data-ll-status="loaded" src="./img/cart-drop-1.png" />
+                                <span class="cart-drop-product-name">Focusrite Scarlett 2i2 Studio 3Gen</span>
+                            </div>
+                            <div id="counter1" class="cart-drop-counter-container">
+                                <div class="cart-drop-product-counter">
+                                    <input type="hidden" name="amount[]" />
+                                    <span class="cart-drop-amount">1</span>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <img class="cart-drop-arrow-up" src="./img/cart-drop-arrow-up.svg"
+                                            alt="Dodaj" />
+                                        <img class="cart-drop-arrow-down" src="./img/cart-drop-arrow-down.svg"
+                                            alt="Odejmij" />
+                                    </div>
+                                    <div class="cart-drop-counter-menu" style="display: none">
+                                        <span class="cart-drop-menu-option">1</span>
+                                        <span class="cart-drop-menu-option">2</span>
+                                        <span class="cart-drop-menu-option">3</span>
+                                        <span class="cart-drop-menu-option">4</span>
+                                        <span class="cart-drop-menu-option">5</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="cart-drop-price">1189 zł</span>
+                                    <img class="cart-drop-trash" src="./img/cart-drop-trash.svg" alt="Usuń" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex w-100 justify-content-between flex-wrap mb-3">
+                            <div id="" class="cart-drop-name-container">
+                                <img class="cart-drop-img lazy loaded" data-src="./img/cart-drop-2.png" alt="zdjecie"
+                                    data-ll-status="loaded" src="./img/cart-drop-2.png" />
+                                <span class="cart-drop-product-name">Native Instruments KOMPLETE 12</span>
+                            </div>
+                            <div id="counter2" class="cart-drop-counter-container">
+                                <div class="cart-drop-product-counter">
+                                    <input type="hidden" name="amount[]" />
+                                    <span class="cart-drop-amount">1</span>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <img class="cart-drop-arrow-up" src="./img/cart-drop-arrow-up.svg"
+                                            alt="Dodaj" />
+                                        <img class="cart-drop-arrow-down" src="./img/cart-drop-arrow-down.svg"
+                                            alt="Odejmij" />
+                                    </div>
+                                    <div class="cart-drop-counter-menu" style="display: none">
+                                        <span class="cart-drop-menu-option">1</span>
+                                        <span class="cart-drop-menu-option">2</span>
+                                        <span class="cart-drop-menu-option">3</span>
+                                        <span class="cart-drop-menu-option">4</span>
+                                        <span class="cart-drop-menu-option">5</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="cart-drop-price">2645 zł</span>
+                                    <img class="cart-drop-trash" src="./img/cart-drop-trash.svg" alt="Usuń" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between w-100 mt-3 flex-wrap">
+                            <div class="d-flex flex-column justify-content-between">
+                                <div style="margin-bottom: 0.8rem">
+                                    <button class="primary-button invert"
+                                        onclick="document.getElementsByClassName('cart')[0].classList.remove('active')">
+                                        ZAMKNIJ
+                                    </button>
+                                </div>
+                                <button class="secondary-button">PRZEJDŹ DO KOSZYKA</button>
+                            </div>
+                            <div class="cart-drop-sum-container">
+                                <p class="cart-drop-sum-title mb-0">Suma:</p>
+                                <p class="cart-drop-sum-price mb-0">3836 zł</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="header-dropdown info-icon social-icons header-button mb-2 cart" id="cart4">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 15 40">
+                            <g>
+                                <g>
+                                    <path fill="#fff"
+                                        d="M7.283.622a5.45 5.45 0 1 0 0 10.9 5.45 5.45 0 0 0 0-10.9zM.017 34.247v3.616c0 .836.678 1.514 1.514 1.514h11.505c.836 0 1.514-.678 1.514-1.514v-3.616c0-.836-.678-1.513-1.514-1.513h-1.514V16.669c0-.836-.678-1.514-1.514-1.514H1.531c-.836 0-1.514.678-1.514 1.514v3.616c0 .836.678 1.514 1.514 1.514h1.514v10.935H1.53c-.836 0-1.514.677-1.514 1.513z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu dropdown-primary cart-drop" aria-labelledby="cart4">
+                        <div class="d-flex flex-wrap">
+                            <div class="col-12 col-md-5 info-contact pr-0 pr-md-3">
+                                <h3 class="info-title">DJ-Sklep</h3>
+                                <a href="tel:+48717950636"><img class="lazy" data-src="./img/phone.svg" alt="" />+48 71
+                                    795 06 36</a>
+                                <a href="tel:+48602720950"><img class="lazy" data-src="./img/phone.svg" alt="" />+48 602
+                                    720 950</a>
+                                <a href="mailto:info@dj-sklep.pl"><img class="lazy" data-src="./img/email.svg"
+                                        alt="" />info@dj-sklep.pl</a>
+                                <a
+                                    href="https://www.google.com/maps/place/plac+Solidarno%C5%9Bci+1,+53-661+Wroc%C5%82aw/@51.1129968,17.0170117,17z/data=!3m1!4b1!4m5!3m4!1s0x470fc209e9b9f92d:0x827a5f0ecb85875d!8m2!3d51.1129968!4d17.0192004"><img
+                                        class="lazy" data-src="./img/pin.svg" alt="" />pl.
+                                    Solidarności 1, lokal 407 53-661 Wrocław</a>
+                                <div class="hour-box">
+                                    <h4 class="hour-title">Godziny otwarcia:</h4>
+                                    <p><span>Pon-Pt</span>: 11:00–18:00</p>
+                                    <p><span>Sb-Nd</span>: nieczynne</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.754108762261!2d17.01701171575548!3d51.112996779572285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc209e9b9f92d%3A0x827a5f0ecb85875d!2splac%20Solidarno%C5%9Bci%201%2C%2053-661%20Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1607414965059!5m2!1spl!2spl"
+                                    width="100%" height="100%" frameborder="0" style="border: 0" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="header-dropdown facebook-icon social-icons header-button mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 24 44">
+                        <g>
+                            <g>
+                                <path fill="#fff"
+                                    d="M21.655 24.69l1.196-7.789h-7.474v-5.054c0-2.131 1.044-4.208 4.391-4.208h3.398V1.007S20.083.481 17.135.481c-6.155 0-10.178 3.73-10.178 10.484V16.9H.115v7.789h6.842v18.829h8.42v-18.83z" />
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+
+                <button class="header-dropdown instagram-icon social-icons header-button mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 42 42">
+                        <g>
+                            <g>
+                                <path fill="#fff"
+                                    d="M37.856 20.814c0-3.023.25-9.513-.835-12.248a7.012 7.012 0 0 0-3.95-3.95c-2.725-1.075-9.224-.834-12.246-.834-3.023 0-9.513-.25-12.248.835a7.012 7.012 0 0 0-3.95 3.95c-1.075 2.725-.834 9.224-.834 12.247 0 3.022-.25 9.512.835 12.247a7.012 7.012 0 0 0 3.95 3.95c2.725 1.075 9.224.834 12.247.834 3.022 0 9.512.25 12.247-.835a7.012 7.012 0 0 0 3.95-3.95c1.084-2.725.834-9.224.834-12.246zm3.597-8.567c.195 3.43.195 13.703 0 17.133-.167 3.329-.927 6.277-3.356 8.706-2.43 2.438-5.377 3.198-8.706 3.356-3.43.195-13.712.195-17.142 0-3.329-.167-6.268-.927-8.706-3.356C1.105 35.656.344 32.709.187 29.38c-.195-3.43-.195-13.712 0-17.142.167-3.329.918-6.277 3.356-8.706C5.981 1.102 8.93.342 12.249.185c3.43-.195 13.712-.195 17.142 0 3.329.167 6.277.927 8.706 3.356 2.438 2.43 3.198 5.377 3.356 8.706zm-7.055-2.522a2.479 2.479 0 0 1-2.485 2.485 2.485 2.485 0 1 1 2.485-2.485zM27.75 20.814a6.932 6.932 0 0 0-6.925-6.926 6.932 6.932 0 0 0-6.926 6.926c0 3.82 3.115 6.925 6.926 6.925 3.81 0 6.925-3.106 6.925-6.925zm3.727 0a10.636 10.636 0 0 1-10.652 10.652 10.636 10.636 0 0 1-10.653-10.652A10.636 10.636 0 0 1 20.825 10.16a10.636 10.636 0 0 1 10.652 10.653z" />
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <div class="d-flex">
+            <div class="sidenav-container">
+                <a href="#" data-activates="slide-out" style="display: none" class="btn p-3 button-collapse"><i
+                        class="fas fa-bars text-white"></i></a>
+                <div id="slide-out" class="side-nav pb-0">
+                    <ul class="custom-scrollbar main-scrollbar mb-0">
+                        <li class="px-4 pt-4">
+                            <form class="search-form" role="search">
+                                <div class="form-group d-flex md-form mt-0 pt-1 waves-light">
+                                    <input type="text" class="form-control sidenav-search"
+                                        style="color: #d1d1d1 !important" placeholder="Wyszukaj po nazwie, EAN, etc…" />
+                                    <button class="sidenav-magnify">
+                                        <img class="img-fluid" src="./img/sidenav-magnify.svg" alt="Lupa" />
+                                    </button>
+                                </div>
+                            </form>
+                        </li>
+                        <li>
+                            <ul class="collapsible collapsible-accordion">
+                                <li class="pl-4 category-li">
+                                    <a id="category1" class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-1.svg" class="lazy sidenav-icon" alt="Studio" />
+                                        Studio</a>
+                                    <div class="dropdown-menu dropdown-primary row subcategories-drop custom-scrollbar"
+                                        aria-labelledby="category1">
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Polecane</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Wszystkie</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Interfejsy Audio</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Interfejsy MIDI</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Kontrolery MIDI-USB</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Kontrolery DJ</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Grooveboxy</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Perkusje i automaty</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Moduły Brzmieniowe</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Samplery</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Syntezatory, Sekwencer</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Equalizery</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Monitory Studyjne</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Rejestratory</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Procesory Dynamiki</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Mikrofony</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Procesory Efektowe</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Słuchawki</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Wzmac. Słuchawkowe</span>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Software</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Kable</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Meble Studyjne</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Inne</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Miksery</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Przedwzmacniacze</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Platformy DSP</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Podcasting</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Akustyka Pomieszczeń</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Seria 500, Frame 80</span>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#" class="">
+                                                <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                    alt="ikona" />
+                                                <span class="pl-2">Systemy Modularne</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-2.svg" class="lazy sidenav-icon" alt="Studio" />
+                                        Cyfrowy DJ / FX</a>
+                                </li>
+                                <li class="pl-4 category-li category-active">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-3.svg" class="lazy sidenav-icon" alt="Studio" />
+                                        CD i MP3 playery</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-4.svg" class="lazy sidenav-icon" alt="Studio" />
+                                        Mikrofony</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-5.svg" class="lazy sidenav-icon" alt="Studio" />
+                                        Słuchawki</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-6.svg" class="lazy sidenav-icon" alt="Studio" />
+                                        Gramofony</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-7.svg" class="lazy sidenav-icon" alt="Studio" />
+                                        Miksery DJ</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-8.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Nagłośnienie</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-9.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Oświetlenie</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-10.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Produkty iOS / Android</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-11.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Oprogramowanie</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-12.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Okablowanie</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-13.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Wkładki
+                                        i igły</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-14.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Statywy</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-15.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Torby</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-16.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Skrzynie</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-17.svg" class="lazy sidenav-icon"
+                                            alt="Studio" />Świat
+                                        gitar</a>
+                                </li>
+                                <li class="pl-4 category-li">
+                                    <a class="collapsible-header waves-effect arrow-r subcategories"><img
+                                            data-src="./img/sidenav-18.svg" class="lazy sidenav-icon" alt="Studio" />VJ
+                                        /
+                                        Video</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mt-5">
+                            <div class="dropdown producents-dropdown">
+                                <button class="header-dropdown flex-row header-button cart w-100 pl-4 pr-0" id="cart3">
+                                    <img class="img-fluid producents-dropdown-img" src="./img/dj-icon.svg" alt="" />
+                                    <span class="producents-dropdown-title">Wybierz producenta</span>
+                                </button>
+                                <div class="dropdown-menu dropdown-primary cart-drop custom-scrollbar"
+                                    aria-labelledby="cart3">
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="">
+                                            <img class="subcategories-icon" src="./img/subcategories-icon.svg"
+                                                alt="ikona" />
+                                            <span class="pl-2">Lorem</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-4 mt-2">
+                            <div class="d-flex align-items-center w-100 mb-3">
+                                <img width="auto" height="15px" data-src="./img/subcategories-icon.svg"
+                                    class="lazy mr-2" alt="" />
+                                <h3 class="section-title">Promocje</h3>
+                            </div>
+                            <div id="sidenav-carousel" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators mx-0 w-100">
+                                    <li data-target="#sidenav-carousel" style="width: 33%" data-slide-to="0"
+                                        class="active">
+                                    </li>
+                                    <li data-target="#sidenav-carousel" style="width: 33%" data-slide-to="1"></li>
+                                    <li data-target="#sidenav-carousel" style="width: 33%" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">
+                                        <div class="bg-picture products-listing-picture lazy"
+                                            data-bg="./img/product-3.jpeg"></div>
+                                        <p class="product-category">Cyfrowy DJ / FX</p>
+                                        <p class="product-title">
+                                            Native Instruments TRAKTOR KONTROL S4Mk3+Decksaver
+                                        </p>
+                                        <div class="d-flex justify-content-between flex-wrap align-items-center mt-2">
+                                            <div class="product-price-container d-flex">
+                                                <p class="product-price">3 599 zł</p>
+                                                <p class="product-discount">3 754 zł</p>
+                                            </div>
+                                            <svg class="add-to-cart" xmlns="http://www.w3.org/2000/svg" width="28"
+                                                height="28" viewBox="0 0 38 30">
+                                                <g>
+                                                    <g>
+                                                        <g>
+                                                            <path fill="#393939"
+                                                                d="M10.434 26.017a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm12.605 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm-6.303 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm16.206-11.254a1.35 1.35 0 0 0-1.35-1.35h-3.79L21.794 5.15a1.8 1.8 0 0 0-2.913 2.118l4.468 6.144H10.123l4.468-6.144a1.8 1.8 0 1 0-2.912-2.118L5.67 13.413H1.88a1.35 1.35 0 0 0-1.35 1.35v.9c0 .746.605 1.351 1.35 1.351h.451L3.801 27.3a2.701 2.701 0 0 0 2.673 2.319h20.524a2.701 2.701 0 0 0 2.674-2.32l1.47-10.285h.45a1.35 1.35 0 0 0 1.35-1.35v-.9z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#393939"
+                                                                d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z" />
+                                                            <path fill="none" stroke="#fff" stroke-miterlimit="20"
+                                                                stroke-width="2"
+                                                                d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#f8f8f8" style="fill: white !important"
+                                                                d="M28 13V6h2v7z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#f8f8f8" style="fill: white !important"
+                                                                d="M25 8h8v3h-8z" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="bg-picture products-listing-picture lazy"
+                                            data-bg="./img/product-3.jpeg"></div>
+                                        <p class="product-category">Cyfrowy DJ / FX</p>
+                                        <p class="product-title">
+                                            Native Instruments TRAKTOR KONTROL S4Mk3+Decksaver
+                                        </p>
+                                        <div class="d-flex justify-content-between flex-wrap align-items-center mt-2">
+                                            <div class="product-price-container d-flex">
+                                                <p class="product-price">3 599 zł</p>
+                                                <p class="product-discount">3 754 zł</p>
+                                            </div>
+                                            <svg class="add-to-cart" xmlns="http://www.w3.org/2000/svg" width="28"
+                                                height="28" viewBox="0 0 38 30">
+                                                <g>
+                                                    <g>
+                                                        <g>
+                                                            <path fill="#393939"
+                                                                d="M10.434 26.017a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm12.605 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm-6.303 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm16.206-11.254a1.35 1.35 0 0 0-1.35-1.35h-3.79L21.794 5.15a1.8 1.8 0 0 0-2.913 2.118l4.468 6.144H10.123l4.468-6.144a1.8 1.8 0 1 0-2.912-2.118L5.67 13.413H1.88a1.35 1.35 0 0 0-1.35 1.35v.9c0 .746.605 1.351 1.35 1.351h.451L3.801 27.3a2.701 2.701 0 0 0 2.673 2.319h20.524a2.701 2.701 0 0 0 2.674-2.32l1.47-10.285h.45a1.35 1.35 0 0 0 1.35-1.35v-.9z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#393939"
+                                                                d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z" />
+                                                            <path fill="none" stroke="#fff" stroke-miterlimit="20"
+                                                                stroke-width="2"
+                                                                d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#f8f8f8" style="fill: white !important"
+                                                                d="M28 13V6h2v7z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#f8f8f8" style="fill: white !important"
+                                                                d="M25 8h8v3h-8z" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="bg-picture products-listing-picture lazy"
+                                            data-bg="./img/product-3.jpeg"></div>
+                                        <p class="product-category">Cyfrowy DJ / FX</p>
+                                        <p class="product-title">
+                                            Native Instruments TRAKTOR KONTROL S4Mk3+Decksaver
+                                        </p>
+                                        <div class="d-flex justify-content-between flex-wrap align-items-center mt-2">
+                                            <div class="product-price-container d-flex">
+                                                <p class="product-price">3 599 zł</p>
+                                                <p class="product-discount">3 754 zł</p>
+                                            </div>
+                                            <svg class="add-to-cart" xmlns="http://www.w3.org/2000/svg" width="28"
+                                                height="28" viewBox="0 0 38 30">
+                                                <g>
+                                                    <g>
+                                                        <g>
+                                                            <path fill="#393939"
+                                                                d="M10.434 26.017a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm12.605 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm-6.303 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm16.206-11.254a1.35 1.35 0 0 0-1.35-1.35h-3.79L21.794 5.15a1.8 1.8 0 0 0-2.913 2.118l4.468 6.144H10.123l4.468-6.144a1.8 1.8 0 1 0-2.912-2.118L5.67 13.413H1.88a1.35 1.35 0 0 0-1.35 1.35v.9c0 .746.605 1.351 1.35 1.351h.451L3.801 27.3a2.701 2.701 0 0 0 2.673 2.319h20.524a2.701 2.701 0 0 0 2.674-2.32l1.47-10.285h.45a1.35 1.35 0 0 0 1.35-1.35v-.9z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#393939"
+                                                                d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z" />
+                                                            <path fill="none" stroke="#fff" stroke-miterlimit="20"
+                                                                stroke-width="2"
+                                                                d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#f8f8f8" style="fill: white !important"
+                                                                d="M28 13V6h2v7z" />
+                                                        </g>
+                                                        <g>
+                                                            <path fill="#f8f8f8" style="fill: white !important"
+                                                                d="M25 8h8v3h-8z" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center w-100 mt-5 mb-3">
+                                <img width="auto" height="15px" data-src="./img/subcategories-icon.svg"
+                                    class="lazy mr-2" alt="" />
+                                <h3 class="section-title">Ostatnio oglądane</h3>
+                            </div>
+                            <div class="d-flex flex-column last-seen">
+                                <div class="d-flex mb-3">
+                                    <div class="picture-container">
+                                        <img class="lazy" data-src="./img/last-seen-1.png" alt="" />
+                                    </div>
+                                    <div class="d-flex flex-column content">
+                                        <p class="product-category">Miksery DJ</p>
+                                        <p class="product-title">
+                                            Zomo P-XDJ-RR NSE - Flightcase Pioneer XDJ-RR
+                                        </p>
+                                        <p class="product-price">879 zł</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex mb-3">
+                                    <div class="picture-container">
+                                        <img class="lazy" data-src="./img/last-seen-2.png" alt="" />
+                                    </div>
+                                    <div class="d-flex flex-column content">
+                                        <p class="product-category">Akcesoria i części</p>
+                                        <p class="product-title">
+                                            American DJ - Fog Scent Zapach Jaśminowy 20ml
+                                        </p>
+                                        <p class="product-price">117 zł</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="picture-container">
+                                        <img class="lazy" data-src="./img/last-seen-3.png" alt="" />
+                                    </div>
+                                    <div class="d-flex flex-column content">
+                                        <p class="product-category">Skrzynie</p>
+                                        <p class="product-title">Zomo Recordcase SP-110 Black</p>
+                                        <p class="product-price">395 zł</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="santander">
+                                <p>Możliwość zakupu przez</p>
+                                <img width="100%" height="auto" class="lazy" data-src="./img/santander.png" alt="" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sidenav-bg"></div>
+                </div>
+            </div>
+            <main>
+                <section class="product-photos">
+                    <div class="breadcrumbs">
+                        <div class="breadcrumb"><a href="#">DJ Sklep</a></div>
+                        <div class="breadcrumb">></div>
+                        <div class="breadcrumb"><a href="#">CD i MP3 playery</a></div>
+                        <div class="breadcrumb">></div>
+                        <div class="breadcrumb"><a href="#">podkategoria</a></div>
+                        <div class="breadcrumb">></div>
+                        <div class="breadcrumb"><a href="#">Denon Prime 2</a></div>
+                    </div>
+
+                    <div class="d-flex flex-wrap flex-column flex-md-row justify-content-between">
+                        <div>
+                            <h4 class="product-cat">CD I MP3 playery</h4>
+                            <h3 class="product-name">Denon Prime 2</h3>
+                        </div>
+                        <div class="labels">
+                            <div class="label first ml-0">NOWOŚĆ</div>
+                            <div class="label text">PRZEDSPRZEDAŻ</div>
+                            <div class="label red">PROMOCJA</div>
+                        </div>
+                    </div>
+
+                    <div class="product-actions">
+                        <div class="lazy main-photo photo bg-picture" onclick="openModal();currentSlide(1)"
+                            data-bg="img/mixer-1.jpg" title=""></div>
+
+                        <div class="other-photos">
+                            <div data-bg="img/product-1.jpg" onclick="openModal();currentSlide(2)" title=""
+                                class="lazy photo bg-picture"></div>
+                            <div data-bg="img/product-2.jpg" onclick="openModal();currentSlide(3)" title=""
+                                class="lazy photo bg-picture"></div>
+                            <div data-bg="img/product-3.jpg" onclick="openModal();currentSlide(4)" title=""
+                                class="lazy photo bg-picture"></div>
+                            <div data-bg="img/product-4.jpg" onclick="openModal();currentSlide(5)" title=""
+                                class="lazy photo bg-picture last">
+                                <div class="mask"></div>
+                                <div class="number">+6</div>
+                            </div>
+                        </div>
+
+                        <div id="myModal" class="custom-modal">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="modal-content">
+
+                                <div class="mySlides">
+                                    <div class="numbertext"> <span class="slide-number">1</span> / <span
+                                            class="slides-count">10</span></div>
+                                    <img id="modal-main-photo" src="img/mixer-1.jpg" style="width:100%">
+                                </div>
+
+
+                                <!-- Next/previous controls -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                <!-- Caption text -->
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+
+                                <!-- Thumbnail image controls -->
+                                <div class="position-relative">
+                                    <div class="owl-carousel shortcut-photos">
+                                        <img class="demo lazy" data-src="img/mixer-1.jpg" onclick="currentSlide(1)">
+                                        <img class="demo lazy" data-src="img/product-1.jpg" onclick="currentSlide(2)">
+                                        <img class="demo lazy" data-src="img/product-2.jpg" onclick="currentSlide(3)">
+                                        <img class="demo lazy" data-src="img/product-3.jpg" onclick="currentSlide(4)">
+                                        <img class="demo lazy" data-src="img/product-4.jpg" onclick="currentSlide(5)">
+                                        <img class="demo lazy" data-src="img/mixer-1.jpg" onclick="currentSlide(6)">
+                                        <img class="demo lazy" data-src="img/product-1.jpg" onclick="currentSlide(7)">
+                                        <img class="demo lazy" data-src="img/product-2.jpg" onclick="currentSlide(8)">
+                                        <img class="demo lazy" data-src="img/product-3.jpg" onclick="currentSlide(9)">
+                                        <img class="demo lazy" data-src="img/product-4.jpg" onclick="currentSlide(10)">
+                                    </div>
+                                    <button class="carousel-arrow prev">
+                                        <span>&#10094;</span>
+                                    </button>
+                                    <button class="carousel-arrow next">
+                                        <span>&#10095;</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="actions-container">
+                            <div>
+                                <div class="prices">
+                                    <div class="product-discount">8 175 zł</div>
+                                    <div class="product-price">6 449 zł</div>
+                                </div>
+                                <div class="vat">Cena z VAT 23%</div>
+                            </div>
+                            <div class="attributes">
+                                <div class="attribute success">
+                                    <img class="lazy" data-src="img/available.svg" alt="">
+                                    Dostępny!
+                                </div>
+                                <div class="attribute warning">
+                                    <img class="lazy" data-src="img/warning.svg" alt="">
+                                    Ostatnie sztuki!
+                                </div>
+                                <div class="attribute first">
+                                    <img class="lazy" data-src="img/truck.svg" alt="">
+                                    Dostawa GRATIS!
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <button class="primary-button cart-button">DODAJ DO KOSZYKA</button>
+                                <button class="white-button eraty button mx-auto w-100"><img data-src="img/eraty.png"
+                                        alt="" class="lazy"></button>
+                                <button class="text-button button">NEGOCJUJ CENĘ</button>
+                                <button class="text-button button"><img data-src="img/arrows-inner.svg" alt=""
+                                        class="lazy compare-icon">PORÓWNAJ</button>
+                                <button class="text-button button"><img data-src="img/heart-white.svg" alt=""
+                                        class="lazy">DO
+                                    ULUBIONYCH</button>
+                                <button class="text-button button"><img data-src="img/printer-white.svg" alt=""
+                                        class="lazy">DRUKUJ</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="opis-i-parametry" class="descriptions-nav">
+                    <div class="title active"><a href="#opis-i-parametry">Opis i parametry</a></div>
+                    <div class="title"><a href="#opinie">Opinie</a></div>
+                    <div class="title"><a href="#warto-wiedziec">Warto wiedzieć</a></div>
+                    <div class="title"><a href="#zadaj-pytanie">Zadaj pytanie</a></div>
+                    <div class="title"><a href="#koszty-dostawy">Koszty dostawy</a></div>
+                </div>
+                <section class="parameters py-0">
+                    <div class="col-12 col-md-8 pt-4">
+                        <div class="title">OPIS PRODUKTU</div>
+                        <div class="description">
+                            <p>Denon PRIME 2 Dwukanałowy system Smart DJ z 7-calowym ekranem dotykowym. Jest to młodszy
+                                brat
+                                popularnego modelu PRIME 4.</p>
+                            <p></p>
+                            <p>Mobilna konsola DJ all-in-one.</p>
+                            <p></p>
+                            <p>Przeznaczony dla profesjonalnego DJ-a napędzany przez Engine OS i obsługujący Wi-Fi do
+                                strumieniowego przesyłania muzyki przez WI-FI bez potrzeby korzystania z laptopa. Do
+                                dyspozycji 7-calowy ekran dotykowy, 6-calowe jogi z kolorowymi wyświetlaczami a także
+                                ekspresyjny korektor, efekty i kreatywne sterowanie całym miksem. PRIME 2 jest
+                                przyszłością
+                                mobilnego DJa.</p>
+                        </div>
+
+                        <div class="title">DANE TECHNICZNE</div>
+                        <ul class="list">
+                            <li>W pełni funkcjonalny, dwukanałowy, niezależny system smart DJ</li>
+                            <li>7-calowy ekran dotykowy HD z gestami</li>
+                            <li>Wbudowana kieszeń 2,5-calowa SATA do przechowywania muzyki na HDD</li>
+                            <li>Wbudowane Wi-Fi i przewodowe połączenie internetowe do strumieniowego przesyłania muzyki
+                            </li>
+                            <li>Koła jog-touch pojemnościowe z centralnym wyświetlaczem HD</li>
+                            <li>Wewnętrznie analizuj pliki muzyczne i kolekcje Rekordbox ™ bezpośrednio z USB</li>
+                            <li>Samodzielny podgląd ścieżki</li>
+                            <li>Niezależne FX, 3-pasmowy korektor i filtr</li>
+                            <li>8 Wielofunkcyjnych dynamiczne pady</li>
+                            <li>2 Dedykowane wejścia mikrofonowe XLR (combo ¼ cala) z EQ / Level i Talkover</li>
+                            <li>Wejście AUX RCA dla odtwarzaczy multimedialnych, tabletów, telefonów</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 pt-0 pt-md-4">
+                        <div class="title">PARAMETRY</div>
+                        <div class="description">
+                            <div class="d-flex justify-content-between">
+                                <p>Głębokość:</p>
+                                <p class="unit">644 mm</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Szerokość:</p>
+                                <p class="unit">410 mm</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Wysokość:</p>
+                                <p class="unit">120 mm</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Pasmo przenoszenia:</p>
+                                <p class="unit">20 Hz - 20 kHz</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Dynamika:</p>
+                                <p class="unit">> 112 dB</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>S/N:</p>
+                                <p class="unit">> 92 dB</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Separacja kanałów:</p>
+                                <p class="unit">
+                                    < -85 dB (1 kHz)</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Headroom:</p>
+                                <p class="unit"></p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Aux/Line:</p>
+                                <p class="unit">> 15 dB</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Mic Input:</p>
+                                <p class="unit">> 20 dB</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Outputs:</p>
+                                <p class="unit">> 20 dB</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Waga:</p>
+                                <p class="unit">7.2 kg</p>
+                            </div>
+                        </div>
+
+                        <div class="title">ZŁĄCZA</div>
+                        <ul class="list">
+                            <li>2x XLR master</li>
+                            <li>2x RCA master</li>
+                            <li>2x XLR booth</li>
+                            <li>1x 1/4" (6.35mm) słuchawki</li>
+                            <li>1x 1/8" (3.5mm) słuchawki</li>
+                            <li>2x RCA input line</li>
+                            <li>2x XLR + 1/4" (6.35mm) mikrofon</li>
+                            <li>3x USB ports dla nośników USB</li>
+                            <li>1x USB port do podłączenia z komputerem</li>
+                            <li>1x SD card slot</li>
+                            <li>1x Ethernet port</li>
+                            <li>1x 2.5" SATA HD</li>
+                        </ul>
+
+                    </div>
+                </section>
+                <div id="opinie" class="descriptions-nav">
+                    <div class="title"><a href="#opis-i-parametry">Opis i parametry</a></div>
+                    <div class="title active"><a href="#opinie">Opinie</a></div>
+                    <div class="title"><a href="#warto-wiedziec">Warto wiedzieć</a></div>
+                    <div class="title"><a href="#zadaj-pytanie">Zadaj pytanie</a></div>
+                    <div class="title"><a href="#koszty-dostawy">Koszty dostawy</a></div>
+                </div>
+
+                <section class="rating d-flex flex-wrap">
+                    <div class="col-12 col-md-6 d-flex align-items-center flex-wrap">
+                        <div
+                            class="d-flex flex-wrap align-items-center w-100 w-lg-unset justify-content-between justify-content-md-start">
+                            <div class="actual-rating">
+                                <div class="number">4/5</div>
+                                <div class="stars">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                </div>
+                                <div class="opinions-counter">(1 opinia)</div>
+                            </div>
+                            <div class="rating-stats">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div class="stars">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                        </div>
+                                        <div class="track">
+                                            <div class="line" style="width: 0%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each-opinion-counter">0</div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div class="stars">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                        </div>
+                                        <div class="track">
+                                            <div class="line" style="width: 100%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each-opinion-counter">1</div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div class="stars">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                        </div>
+                                        <div class="track">
+                                            <div class="line" style="width: 0%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each-opinion-counter">0</div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div class="stars">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                        </div>
+                                        <div class="track">
+                                            <div class="line" style="width: 0%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each-opinion-counter">0</div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div class="stars">
+                                            <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                            <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                        </div>
+                                        <div class="track">
+                                            <div class="line" style="width: 0%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each-opinion-counter">0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 add-opinion-col">
+                        <div class="add-opinion-container">
+                            <div>
+                                <h5>Masz ten produkt?</h5>
+                                <div class="text-black">Pomóż innym w wyborze!</div>
+                            </div>
+                            <div class="d-flex flex-column align-items-md-center align-items-start add-opinion-content">
+                                <div class="stars outer-stars mb-2">
+                                    <img data-src="img/star-grey.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-grey.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-grey.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-grey.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-grey.svg" alt="" class="lazy star">
+                                </div>
+                                <button class="primary-button" data-toggle="modal"
+                                    data-target="#add-opinion-modal">DODAJ
+                                    OPINIĘ</button>
+                                <div class="modal fade" id="add-opinion-modal" tabindex="-1" role="dialog"
+                                    aria-labelledby="add-opinion-label" aria-hidden="true">
+                                    <div class="modal-dialog modal-bottom" role="document">
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <img width="auto" height="15px"
+                                                        data-src="./img/subcategories-icon.svg" class="lazy mr-2"
+                                                        alt="">
+                                                    <h3 class="section-title">Dodaj opinię</h3>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="d-flex flex-wrap">
+                                                    <img class="lazy modal-main-photo" data-src="img/mixer-1.jpg">
+
+                                                    <div class="d-flex justify-content-center flex-column">
+                                                        <h4 class="product-cat">CD I MP3 playery</h4>
+                                                        <h3 class="product-name">Denon Prime 2</h3>
+                                                    </div>
+
+                                                    <form id="opinion-form" method="post" action="#" class="modal-form">
+                                                        <div class="stars modal-stars">
+                                                            <img data-src="img/star-outline.svg" alt=""
+                                                                class="lazy star">
+                                                            <img data-src="img/star-outline.svg" alt=""
+                                                                class="lazy star">
+                                                            <img data-src="img/star-outline.svg" alt=""
+                                                                class="lazy star">
+                                                            <img data-src="img/star-outline.svg" alt=""
+                                                                class="lazy star">
+                                                            <img data-src="img/star-outline.svg" alt=""
+                                                                class="lazy star">
+                                                        </div>
+                                                        <input id="stars-value" type="hidden" name="stars" value="0">
+                                                        <input required class="modal-input"
+                                                            placeholder="Imię i nazwisko" type="text">
+                                                        <input required class="modal-input" placeholder="Adres E-mail"
+                                                            type="email">
+                                                        <textarea required class="modal-input" rows="4"
+                                                            type="text">Opinia</textarea>
+
+                                                        <div class="custom-control custom-checkbox p-0">
+                                                            <div class="rodo">
+                                                                Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                                elit.
+                                                                Laboriosam asperiores sed soluta quibusdam, minima harum
+                                                                et
+                                                                adipisci dolores nobis accusamus ea ullam consectetur
+                                                                voluptate architecto omnis explicabo? Illo, similique
+                                                                quos!
+                                                                <div class="arrow"></div>
+                                                            </div>
+                                                            <input type="checkbox" id="rodo2" required=""
+                                                                class="form-check-input">
+                                                            <label class="form-check-label text-white checkbox-label"
+                                                                for="rodo2">Zapoznałem się z
+                                                                <span class="show-rodo">informacją o administratorze i
+                                                                    przetwarzaniu
+                                                                    danych</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center">
+                                                            <button type="submit" class="primary-button">Wyślij
+                                                                opinię</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="users-opinions-title">
+                        Opinie użytkowników
+                    </div>
+                    <div class="users-opinions">
+                        <div class="opinion">
+                            <div class="d-flex flex-wrap align-items-center">
+                                <div class="name">Aneta</div>
+                                <div class="stars">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                </div>
+                                <div class="date">17.12.2020</div>
+                            </div>
+                            <div class="description">Produkt spełnił moje oczekiwania. Na pewno wrócę do tego sklepu w
+                                przyszłości!</div>
+                        </div>
+                        <div class="opinion">
+                            <div class="d-flex flex-wrap align-items-center">
+                                <div class="name">Aneta</div>
+                                <div class="stars">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-filled.svg" alt="" class="lazy star">
+                                    <img data-src="img/star-outline.svg" alt="" class="lazy star">
+                                </div>
+                                <div class="date">17.12.2020</div>
+                            </div>
+                            <div class="description">Produkt spełnił moje oczekiwania. Na pewno wrócę do tego sklepu w
+                                przyszłości!</div>
+                        </div>
+                    </div>
+                </section>
+                <div id="warto-wiedziec" class="descriptions-nav">
+                    <div class="title"><a href="#opis-i-parametry">Opis i parametry</a></div>
+                    <div class="title"><a href="#opinie">Opinie</a></div>
+                    <div class="title active"><a href="#warto-wiedziec">Warto wiedzieć</a></div>
+                    <div class="title"><a href="#zadaj-pytanie">Zadaj pytanie</a></div>
+                    <div class="title"><a href="#koszty-dostawy">Koszty dostawy</a></div>
+                </div>
+                <section class="curiosities">
+                    <div>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h6>
+                        <div>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div>
+                        <h6>Ut enim ad minim veniam?</h6>
+                        <div>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    </div>
+                    <div>
+                        <h6>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum?</h6>
+                        <div>Dolore eu fugiat nulla pariatur.</div>
+                    </div>
+                    <div>
+                        <h6>Excepteur sint occaecat cupidatat non proiden?</h6>
+                        <div>Sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </div>
+                </section>
+
+                <div id="zadaj-pytanie" class="descriptions-nav">
+                    <div class="title"><a href="#opis-i-parametry">Opis i parametry</a></div>
+                    <div class="title"><a href="#opinie">Opinie</a></div>
+                    <div class="title"><a href="#warto-wiedziec">Warto wiedzieć</a></div>
+                    <div class="title active"><a href="#zadaj-pytanie">Zadaj pytanie</a></div>
+                    <div class="title"><a href="#koszty-dostawy">Koszty dostawy</a></div>
+                </div>
+                <section class="send-question">
+                    <div class="add-opinion-container mt-0">
+                        <div>
+                            <h5>Masz pytania do tego produktu?</h5>
+                            <div class="text-black">Zadaj pytanie. Odpowiemy najszybciej jak tylko możemy!</div>
+                        </div>
+                        <button class="primary-button" data-toggle="modal" data-target="#ask-question-modal">ZADAJ
+                            PYTANIE</button>
+                        <div class="modal fade" id="ask-question-modal" tabindex="-1" role="dialog"
+                            aria-labelledby="ask-question-label" aria-hidden="true">
+                            <div class="modal-dialog modal-bottom" role="document">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img width="auto" height="15px" data-src="./img/subcategories-icon.svg"
+                                                class="lazy mr-2" alt="">
+                                            <h3 class="section-title">Zadaj pytanie</h3>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="d-flex flex-wrap">
+                                            <img class="lazy modal-main-photo" data-src="img/mixer-1.jpg">
+
+                                            <div class="d-flex justify-content-center flex-column">
+                                                <h4 class="product-cat">CD I MP3 playery</h4>
+                                                <h3 class="product-name">Denon Prime 2</h3>
+                                            </div>
+
+                                            <form method="post" action="#" class="modal-form">
+                                                <textarea required class="modal-input" rows="4"
+                                                    type="text">Treść pytania</textarea>
+                                                <input required class="modal-input" placeholder="Imię i nazwisko"
+                                                    type="text">
+                                                <input required class="modal-input" placeholder="Adres E-mail"
+                                                    type="email">
+
+                                                <div class="custom-control custom-checkbox p-0">
+                                                    <div class="rodo">
+                                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                        Laboriosam asperiores sed soluta quibusdam, minima harum et
+                                                        adipisci dolores nobis accusamus ea ullam consectetur
+                                                        voluptate architecto omnis explicabo? Illo, similique quos!
+                                                        <div class="arrow"></div>
+                                                    </div>
+                                                    <input type="checkbox" id="rodo" required=""
+                                                        class="form-check-input">
+                                                    <label class="form-check-label text-white checkbox-label"
+                                                        for="rodo">Zapoznałem się z
+                                                        <span class="show-rodo">informacją o administratorze i
+                                                            przetwarzaniu
+                                                            danych</span>
+                                                    </label>
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <button type="submit" class="primary-button">Wyślij
+                                                        wiadomość</button>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="koszty-dostawy" class="descriptions-nav">
+                    <div class="title"><a href="#opis-i-parametry">Opis i parametry</a></div>
+                    <div class="title"><a href="#opinie">Opinie</a></div>
+                    <div class="title"><a href="#warto-wiedziec">Warto wiedzieć</a></div>
+                    <div class="title"><a href="#zadaj-pytanie">Zadaj pytanie</a></div>
+                    <div class="title active"><a href="#koszty-dostawy">Koszty dostawy</a></div>
+                </div>
+                <section class="deliveries">
+                    <div class="delivery">
+                        <img data-src="img/delivery-1.png" alt="" class="lazy">
+                        <div class="content">
+                            <div class="title">Odbiór osobisty</div>
+                            <div class="price">0,00 zł</div>
+                        </div>
+                    </div>
+                    <div class="delivery">
+                        <img data-src="img/delivery-2.png" alt="" class="lazy">
+                        <div class="content">
+                            <div class="title">Kurier GLS</div>
+                            <div class="price">16,00 zł</div>
+                        </div>
+                    </div>
+                    <div class="delivery">
+                        <img data-src="img/delivery-2.png" alt="" class="lazy">
+                        <div class="content">
+                            <div class="title">Kurier GLS pobranie</div>
+                            <div class="price">21,00 zł</div>
+                        </div>
+                    </div>
+                    <div class="delivery">
+                        <img data-src="img/delivery-3.png" alt="" class="lazy">
+                        <div class="content">
+                            <div class="title">Paczkomat</div>
+                            <div class="price">12,00 zł</div>
+                        </div>
+                    </div>
+                    <div class="delivery">
+                        <img data-src="img/delivery-3.png" alt="" class="lazy">
+                        <div class="content">
+                            <div class="title">Paczkomat pobranie</div>
+                            <div class="price">14,00 zł</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="interesting-products">
+                    <div class="title">Mogą Cię również zainteresować:</div>
+                    <div class="products-listing">
+                        <div class="col-12 col-md-4">
+                            <div class="bg-picture products-listing-picture lazy" data-bg="./img/product-1.jpeg">
+                            </div>
+                            <p class="product-category">Oprogramowanie</p>
+                            <p class="product-title">Native Instruments KOMPLETE 12</p>
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mt-2">
+                                <div class="product-price-container d-flex">
+                                    <p class="product-price">2 645 zł</p>
+                                </div>
+                                <div class="d-flex">
+
+                                    <svg class="add-to-cart" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 38 30">
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#393939"
+                                                        d="M10.434 26.017a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm12.605 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm-6.303 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm16.206-11.254a1.35 1.35 0 0 0-1.35-1.35h-3.79L21.794 5.15a1.8 1.8 0 0 0-2.913 2.118l4.468 6.144H10.123l4.468-6.144a1.8 1.8 0 1 0-2.912-2.118L5.67 13.413H1.88a1.35 1.35 0 0 0-1.35 1.35v.9c0 .746.605 1.351 1.35 1.351h.451L3.801 27.3a2.701 2.701 0 0 0 2.673 2.319h20.524a2.701 2.701 0 0 0 2.674-2.32l1.47-10.285h.45a1.35 1.35 0 0 0 1.35-1.35v-.9z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#393939"
+                                                        d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z">
+                                                    </path>
+                                                    <path fill="none" stroke="#fff" stroke-miterlimit="20"
+                                                        stroke-width="2"
+                                                        d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#f8f8f8" style="fill: white!important"
+                                                        d="M28 13V6h2v7z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#f8f8f8" style="fill: white!important"
+                                                        d="M25 8h8v3h-8z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="bg-picture products-listing-picture lazy" data-bg="./img/product-1.jpeg">
+                            </div>
+                            <p class="product-category">Oprogramowanie</p>
+                            <p class="product-title">Native Instruments KOMPLETE 12</p>
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mt-2">
+                                <div class="product-price-container d-flex">
+                                    <p class="product-price">2 645 zł</p>
+                                </div>
+                                <div class="d-flex">
+
+                                    <svg class="add-to-cart" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 38 30">
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#393939"
+                                                        d="M10.434 26.017a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm12.605 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm-6.303 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm16.206-11.254a1.35 1.35 0 0 0-1.35-1.35h-3.79L21.794 5.15a1.8 1.8 0 0 0-2.913 2.118l4.468 6.144H10.123l4.468-6.144a1.8 1.8 0 1 0-2.912-2.118L5.67 13.413H1.88a1.35 1.35 0 0 0-1.35 1.35v.9c0 .746.605 1.351 1.35 1.351h.451L3.801 27.3a2.701 2.701 0 0 0 2.673 2.319h20.524a2.701 2.701 0 0 0 2.674-2.32l1.47-10.285h.45a1.35 1.35 0 0 0 1.35-1.35v-.9z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#393939"
+                                                        d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z">
+                                                    </path>
+                                                    <path fill="none" stroke="#fff" stroke-miterlimit="20"
+                                                        stroke-width="2"
+                                                        d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#f8f8f8" style="fill: white!important"
+                                                        d="M28 13V6h2v7z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#f8f8f8" style="fill: white!important"
+                                                        d="M25 8h8v3h-8z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="bg-picture products-listing-picture lazy" data-bg="./img/product-1.jpeg">
+                            </div>
+                            <p class="product-category">Oprogramowanie</p>
+                            <p class="product-title">Native Instruments KOMPLETE 12</p>
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mt-2">
+                                <div class="product-price-container d-flex">
+                                    <p class="product-price">2 645 zł</p>
+                                </div>
+                                <div class="d-flex">
+
+                                    <svg class="add-to-cart" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                        viewBox="0 0 38 30">
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#393939"
+                                                        d="M10.434 26.017a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm12.605 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm-6.303 0a1.35 1.35 0 0 1-1.35-1.35v-6.302a1.35 1.35 0 1 1 2.7 0v6.302a1.35 1.35 0 0 1-1.35 1.35zm16.206-11.254a1.35 1.35 0 0 0-1.35-1.35h-3.79L21.794 5.15a1.8 1.8 0 0 0-2.913 2.118l4.468 6.144H10.123l4.468-6.144a1.8 1.8 0 1 0-2.912-2.118L5.67 13.413H1.88a1.35 1.35 0 0 0-1.35 1.35v.9c0 .746.605 1.351 1.35 1.351h.451L3.801 27.3a2.701 2.701 0 0 0 2.673 2.319h20.524a2.701 2.701 0 0 0 2.674-2.32l1.47-10.285h.45a1.35 1.35 0 0 0 1.35-1.35v-.9z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#393939"
+                                                        d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z">
+                                                    </path>
+                                                    <path fill="none" stroke="#fff" stroke-miterlimit="20"
+                                                        stroke-width="2"
+                                                        d="M29.185 1.804a7.815 7.815 0 1 1 0 15.63 7.815 7.815 0 0 1 0-15.63z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#f8f8f8" style="fill: white!important"
+                                                        d="M28 13V6h2v7z">
+                                                    </path>
+                                                </g>
+                                                <g>
+                                                    <path fill="#f8f8f8" style="fill: white!important"
+                                                        d="M25 8h8v3h-8z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </main>
+        </div>
+        <section class="newsletter bg-picture lazy" data-bg="./img/newsletter-bg.png">
+            <div class="newsletter-content">
+                <div class="col-12 col-lg-6">
+                    <h1 class="newsletter-title">Newsletter</h1>
+                    <p class="newsletter-subtitle">
+                        Zapisz się i bądź na bieżąco<br />z naszymi nowościami i promocjami!
+                    </p>
+                </div>
+                <div class="d-flex col-12 col-lg-6 flex-wrap flex-lg-nowrap">
+                    <input class="newsletter-input" type="email" name="email" placeholder="Adres e-mail" />
+                    <button class="newsletter-button">Zapisz się</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="d-flex flex-column footer-container">
+                <div class="links flex-wrap">
+                    <div class="col-12 col-md-3">
+                        <h4>Zakupy</h4>
+                        <a href="">Dostawa</a>
+                        <a href="">Formy płatności</a>
+                        <a href="">Regulamin</a>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4>Serwis i wsparcie</h4>
+                        <a href="">Naprawy i serwis</a>
+                        <a href="">Jak wybrać sprzęt muzyczny?</a>
+                        <a href="">Reklamacja</a>
+                        <a href="">Zwrot towaru</a>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4>Nasza firma</h4>
+                        <a href="">O nas</a>
+                        <a href="">Dlaczego my?</a>
+                        <a href="">Kontakt</a>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4>Opinie klientów</h4>
+                        <div class="d-flex">
+                            <a href="">Przejdź do<br />Google Opinie</a>
+                            <div class="google-separator"></div>
+                            <img class="lazy img-fluid" style="height: 35px" data-src="./img/google.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <p class="jacek">2002-2020 Dj-Sklep.pl Żelaszkiewicz Jacek</p>
+            </div>
+            <section class="ad-awards">
+                <div class="d-flex align-items-center flex-wrap">
+                    <a href="https://agencjamedialna.pro/" target="_blank">
+                        <img style="height: 17px" class="img-fluid mr-3" src="./img/adawards.svg" alt="" />
+                    </a>
+                    <p class="mb-0 text-white">
+                        Design and implementation by
+                        <a class="font-weight-bold" target="_blank" href="https://agencjamedialna.pro/">Ad Awards.</a>
+                        All rights reserved.
+                    </p>
+                </div>
+                <a target="_blank" class="text-white"
+                    href="https://agencjamedialna.pro/">www.<span>AgencjaMedialna</span>.pro</a>
+            </section>
+        </footer>
+    </div>
+
+    <div class="bg-picture lazy margin-right" data-bg="img/margin-right.jpg">
+        <div class="mask"></div>
+    </div>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.2.0/dist/lazyload.min.js"></script>
+    <script type="text/javascript" src="./js/sidenav.js"></script>
+    <script type="text/javascript" src="./js/initializator.js"></script>
+    <script type="text/javascript" src="./js/cart-button.js"></script>
+    <script type="text/javascript" src="./js/cart-select.js"></script>
+    <script type="text/javascript" src="./js/main-index.js"></script>
+    <script type="text/javascript" src="./js/show-fixed-button.js"></script>
+    <script src="dist/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="./js/lightbox.js"></script>
+    <script type="text/javascript" src="./js/magnify.js"></script>
+    <script type="text/javascript" src="./js/show-rodo.js"></script>
+    <script type="text/javascript" src="./js/stars.js"></script>
+    <script type="text/javascript" src="./js/opinion-form-validation.js"></script>
+    <script type="text/javascript" src="./js/paragraph-spacer.js"></script>
+    <script src="https://kit.fontawesome.com/3353bb36d2.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
